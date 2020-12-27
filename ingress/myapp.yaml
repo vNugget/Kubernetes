@@ -1,0 +1,26 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: protected-app
+  namespace: myapps
+  labels:
+    app: protected
+spec:
+  containers:
+    - name: protected-app
+      image: hashicorp/http-echo
+      args:
+        - "-text=important inforomation here!!!"
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: protected-app-svc
+  namespace: myapps
+spec:
+  selector:
+    app: protected
+  ports:
+    - port: 5678
