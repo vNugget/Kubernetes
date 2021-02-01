@@ -59,10 +59,10 @@ aws_secret_access_key = <aws_secret_access_key>
 ```
 ## Create app from yaml
 
-kubectl apply -f ../../my-app.yaml
+`kubectl apply -f ../../my-app.yaml`
 
 ## Copy index file and test
-scp -i ../../kubemaster.privkey ../../index.html  vagrant@192.168.1.52:/k8s/webapp
+`scp -i ../../kubemaster.privkey ../../index.html  vagrant@192.168.1.52:/k8s/webapp`
 
 ## backup the deployed app
 ```bash
