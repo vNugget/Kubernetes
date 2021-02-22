@@ -4,7 +4,7 @@
 
 This will install:
 
-- Kubernetes 1.20
+- The lastest Kubernetes version (currently 1.20)
 - Containerd as a runtime
 - Calico as a CNI.
 
