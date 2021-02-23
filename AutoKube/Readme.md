@@ -21,5 +21,9 @@ You have to install:
 ```
 
 ```bash
+# cd Kubernetes/AutoKube
+```
+
+```bash
 # vagrant up
 ```
