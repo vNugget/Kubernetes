@@ -27,3 +27,7 @@ You have to install:
 ```bash
 # vagrant up
 ```
+```bash
+# vagrant ssh master-1
+```
+After this stage you can use kubectl
