@@ -13,3 +13,13 @@ This will install:
 You have to install:
 - [Vagrant](https://www.vagrantup.com/) 
 - and [VirtualBox](https://www.virtualbox.org/)
+
+## How To Use It
+
+```bash
+# git clone https://github.com/vNugget/Kubernetes.git
+```
+
+```bash
+# vagrant up
+```
