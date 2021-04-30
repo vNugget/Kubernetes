@@ -9,6 +9,7 @@ N = 2
 
 Vagrant.configure("2") do |config|
     config.ssh.insert_key = false
+    config.vm.box_check_update = false
 
     config.vm.provider "virtualbox" do |v|
         v.memory = 2048
